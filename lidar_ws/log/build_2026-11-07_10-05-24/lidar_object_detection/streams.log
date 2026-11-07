@@ -1,0 +1,29 @@
+[0.559s] Invoking command in '/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/src/lidar_object_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_object_detection build --build-base /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build install --record /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/install.log --install-scripts $base/lib/lidar_object_detection --single-version-externally-managed install_data
+[0.761s] running egg_info
+[0.776s] writing ../../build/lidar_object_detection/lidar_object_detection.egg-info/PKG-INFO
+[0.777s] writing dependency_links to ../../build/lidar_object_detection/lidar_object_detection.egg-info/dependency_links.txt
+[0.777s] writing entry points to ../../build/lidar_object_detection/lidar_object_detection.egg-info/entry_points.txt
+[0.777s] writing requirements to ../../build/lidar_object_detection/lidar_object_detection.egg-info/requires.txt
+[0.777s] writing top-level names to ../../build/lidar_object_detection/lidar_object_detection.egg-info/top_level.txt
+[0.811s] reading manifest file '../../build/lidar_object_detection/lidar_object_detection.egg-info/SOURCES.txt'
+[0.812s] writing manifest file '../../build/lidar_object_detection/lidar_object_detection.egg-info/SOURCES.txt'
+[0.812s] running build
+[0.812s] running build_py
+[0.812s] copying lidar_object_detection/detector.py -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build/lib/lidar_object_detection
+[0.812s] copying lidar_object_detection/utils.py -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build/lib/lidar_object_detection
+[0.812s] copying lidar_object_detection/config.py -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build/lib/lidar_object_detection
+[0.812s] copying lidar_object_detection/__init__.py -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build/lib/lidar_object_detection
+[0.812s] running install
+[0.815s] running install_lib
+[0.831s] copying /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build/lib/lidar_object_detection/detector.py -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/python3.12/site-packages/lidar_object_detection
+[0.832s] byte-compiling /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/python3.12/site-packages/lidar_object_detection/detector.py to detector.cpython-312.pyc
+[0.832s] running install_data
+[0.833s] copying resource/lidar_object_detection -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/share/ament_index/resource_index/packages
+[0.833s] copying package.xml -> /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/share/lidar_object_detection
+[0.833s] running install_egg_info
+[0.849s] removing '/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/python3.12/site-packages/lidar_object_detection-0.0.0-py3.12.egg-info' (and everything under it)
+[0.849s] Copying ../../build/lidar_object_detection/lidar_object_detection.egg-info to /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/python3.12/site-packages/lidar_object_detection-0.0.0-py3.12.egg-info
+[0.855s] running install_scripts
+[0.887s] Installing lidar_detect script to /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/lidar_object_detection
+[0.887s] writing list of installed files to '/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/install.log'
+[0.900s] Invoked command in '/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/src/lidar_object_detection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/install/lidar_object_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_object_detection build --build-base /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/build install --record /home/akshladdhs/Point_Cloud_Object_Detection/lidar_ws/build/lidar_object_detection/install.log --install-scripts $base/lib/lidar_object_detection --single-version-externally-managed install_data

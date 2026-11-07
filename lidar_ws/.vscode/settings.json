@@ -1,0 +1,19 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/akshladdhs/terrain_ws/install/vps_vio/lib/python3.12/site-packages",
+        "/home/akshladdhs/terrain_ws/install/gpsdenied_vps/lib/python3.12/site-packages",
+        "/home/akshladdhs/terrain_ws/install/px4_msgs/lib/python3.12/site-packages",
+        "/home/akshladdhs/terrain_ws/install/orb_slam3_msgs/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/usr/local/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/akshladdhs/terrain_ws/install/vps_vio/lib/python3.12/site-packages",
+        "/home/akshladdhs/terrain_ws/install/gpsdenied_vps/lib/python3.12/site-packages",
+        "/home/akshladdhs/terrain_ws/install/px4_msgs/lib/python3.12/site-packages",
+        "/home/akshladdhs/terrain_ws/install/orb_slam3_msgs/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/usr/local/lib"
+    ]
+}
