@@ -6,9 +6,9 @@ For the project, PointPillars Architecture is inferenced for 3D Object Detection
 
 The file structure - 
 
-**detector.py:** Main script, that subscribes to the pointcloud topic, preprocesses, performs inference and publishes results
-**config.py:** Contains all the parameters that can be tuned to modify and achieve the desired results
-**utils.py:** To create vertical pillars from raw point cloud data
+**detector.py:** Main script, that subscribes to the pointcloud topic, preprocesses, performs inference and publishes results.
+**config.py:** Contains all the parameters that can be tuned to modify and achieve the desired results.
+**utils.py:** To create vertical pillars from raw point cloud data.
 
 Since, the PointPillars repository already contains method to create vertical pillars, we comment out this block
 
