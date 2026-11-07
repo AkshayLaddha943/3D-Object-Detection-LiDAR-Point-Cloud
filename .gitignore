@@ -1,0 +1,15 @@
+# VS Code
+.vscode/
+**/.vscode/
+
+# ROS 2 build files
+lidar_ws/build/
+lidar_ws/install/
+lidar_ws/log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PointPillars build files
+**/build/
