@@ -6,9 +6,17 @@ For the project, PointPillars Architecture is inferenced for 3D Object Detection
 
 The file structure - 
 
-**detector.py:** Implementation for pure Inertial Odometry (with an option to add bias and Gaussian noise)  
-**config.py:** Implementation of Visual Odometry, evaluated using ORB-FLANN & Sparse LK Tracker  
-**utils.py:** ESEKF-driven Visual & Inertial Fusion for Localization  
+**detector.py:** Main script, that subscribes to the pointcloud topic, preprocesses, performs inference and publishes results
+**config.py:** Contains all the parameters that can be tuned to modify and achieve the desired results
+**utils.py:** To create vertical pillars from raw point cloud data
+
+Since, the PointPillars repository already contains method to create vertical pillars, we comment out this block
+
+Steps:
+
+- Clone the Repository [PointPillars](https://github.com/zhulf0804/PointPillars) inside the _ws/src folder
+- Create a venv and install the requirements.txt file
+- Store the pretrained model .pth file inside models folder
 
 ## PointPillars Architecture
 
@@ -16,8 +24,6 @@ The file structure -
 
 
 ## Results
-
-
 
 https://github.com/user-attachments/assets/da387856-2adb-46e4-8f6f-76dac4fb31cc
 
