@@ -6,9 +6,14 @@ For the project, PointPillars Architecture is inferenced for 3D Object Detection
 
 The file structure - 
 
-**detector.py:** Main script, that subscribes to the pointcloud topic, preprocesses, performs inference and publishes results.
-**config.py:** Contains all the parameters that can be tuned to modify and achieve the desired results.
-**utils.py:** To create vertical pillars from raw point cloud data.
+- **`detector.py`**  
+  Main ROS 2 node that subscribes to the LiDAR point cloud topic, performs preprocessing and PointPillars inference, and publishes 3D bounding-box detections.
+
+- **`config.py`**  
+  Contains configurable parameters such as point-cloud range, voxel dimensions, detection confidence thresholds, and class definitions.
+
+- **`utils.py`**  
+  Provides utility functions for processing raw LiDAR point clouds, including vertical pillar generation.
 
 Since, the PointPillars repository already contains method to create vertical pillars, we comment out this block
 
