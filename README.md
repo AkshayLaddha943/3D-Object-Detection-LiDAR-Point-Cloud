@@ -17,4 +17,5 @@ The file structure -
 
 ## Results
 
-https://github.com/user-attachments/assets/c26530ab-58e6-4dec-81bc-b196e184fa52
+<img width="400" height="229" alt="3dobjdetect" src="https://github.com/user-attachments/assets/c7d95a61-5385-42fb-b0fc-38b9730ded03" />
+
